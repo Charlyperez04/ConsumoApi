@@ -10,20 +10,30 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
+		<link
+			rel="stylesheet"
+			href="./styles.css"
+		/>
 		<title>Gatitos aleatorios</title>
 	</head>
 	<body>
-		<h1>Michis App</h1>
-
+		<header>
+			<h1>Michis App</h1>
+			<p>
+				Este es un proyecto de consumo de API, en
+				este caso, de la cat API
+			</p>
+		</header>
 		<span id="error"></span>
-
-		<section id="randomMichis">
+		<section
+			id="randomMichis"
+			class="cargandoMichis"
+		>
 			<h2>Michis aleatorios</h2>
 
 			<article>
 				<img
 					id="img1"
-					width="150"
 					alt="Foto gatito aleatorio"
 				/>
 				<button id="btn1">
